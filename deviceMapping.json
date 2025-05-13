@@ -1,0 +1,39 @@
+{
+    "ADIFM_B2": {
+        "devID": "ADIFM_B2",
+        "devName": "ADIFM_B2",
+        "description": "Flowmeter",
+        "sensors": [
+            {
+                "sensorid": "FLOW",
+                "sensorName": "Flowrate",
+                "description": "gives Flowrate in units m**3/hr"
+            },
+            {
+                "sensorid": "TOTAL",
+                "sensorName": "Totalizer",
+                "description": "gives totalizer value in units m**3"
+            },
+            {
+                "sensorid": "Status",
+                "sensorName": "Status",
+                "description": "gives status of device"
+            },
+            {
+                "sensorid": "BAT",
+                "sensorName": "Battery Voltage",
+                "description": "gives batter voltage"
+            },
+            {
+                "sensorid": "R1",
+                "sensorName": "R1",
+                "description": ""
+            },
+            {
+                "sensorid": "RSSI",
+                "sensorName": "Network Strength",
+                "description": "Gives sensors network strength"
+            }
+        ]
+    }
+}
